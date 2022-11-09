@@ -1,0 +1,83 @@
+nav{
+   padding:0px; 
+   margin:0px;
+   height: 80%;
+}
+.bg-grey{
+    background-color:grey;
+}
+/*.letra-negra{
+    filter: invert(.9);
+    -webkit-filter: invert(.9); 
+    -moz-filter: invert(.9);
+}
+/*body{
+    background-color: blueviolet;
+}*/
+/*busco la propiedad en inspeccionar y veo cual hace que los iconos de las redes sean transparentes y sin borde*/
+.list-group{
+    --bs-list-group-bg:transparent;
+    --bs-list-group-border-width:none;
+    --bs-list-group-border-color:transparent;
+    }
+    
+    i.fa-brands.fa-square-twitter:hover{
+        --bs-text-opacity: 1;
+        color: #2c7cbe!important;
+    }
+
+    i.fa-brands.fa-linkedin:hover{
+        --bs-text-opacity:1;
+        color:#062746 !important;
+    }
+    i.fa-brands.fa-github:hover{
+        --bs-text-opacity:1;
+        color:#0d0e0e !important;  
+    }
+    i.fa-solid.fa-circle-check:hover{
+        --bs-text-opacity:1;
+        color:#59c019 !important;  
+    }
+    section.banner{
+        position:relative;
+        background-image: url(../images/tecnologia.png);
+        width: 100%;
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-msn-background-size: cover;*/
+    /*esto es para que sea compatible con IE8*/
+    }
+    .texto-banner{
+        color:rgb(236, 238, 244);
+        text-shadow: black 0.1em 0.1em 0.2em;
+        text-align: center;
+        /*margin-top: 5px;*/
+        padding-top:5px;
+    }
+    h3.espacio{
+        padding-top: 15%;
+        font-size: 1.5rem;
+    }
+    h1.espacio{
+        font-size: 3rem;
+    }
+    h2.espacio{
+        font-size: 2rem;
+    }
+    .fotoPresentacion{
+        box-shadow: 15px 15px 25px rgb(19, 19, 19);
+    }
+    .fotoPresentacion:hover{
+        opacity: 0.3;
+    }
+    .cuadroExperiencia{
+        background-color: #b6c1b0;
+    }
+
+   
+
+    
