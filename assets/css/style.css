@@ -76,6 +76,21 @@ nav{
     }
     .cuadroExperiencia{
         background-color: #b6c1b0;
+        padding: 30px;
+        width: 100%;
+    }
+    .row{
+        background-color: red;
+        height: 300px;
+    }
+    .fotoeducacion{
+        margin: 20px;
+    }
+    .imagenPresentacion{
+        margin:20px;
+    }
+    .filaPerfil{
+        background-color: darkkhaki;
     }
 
    
